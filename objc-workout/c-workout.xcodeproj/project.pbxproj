@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		36E3AFA428A568D700718FBC /* objc-workout */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "objc-workout"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E3AFA428A568D700718FBC /* c-workout */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c-workout"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E3AFA728A568D700718FBC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		36E3AF9B28A568D700718FBC = {
 			isa = PBXGroup;
 			children = (
-				36E3AFA628A568D700718FBC /* objc-workout */,
+				36E3AFA628A568D700718FBC /* c-workout */,
 				36E3AFA528A568D700718FBC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		36E3AFA528A568D700718FBC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36E3AFA428A568D700718FBC /* objc-workout */,
+				36E3AFA428A568D700718FBC /* c-workout */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36E3AFA628A568D700718FBC /* objc-workout */ = {
+		36E3AFA628A568D700718FBC /* c-workout */ = {
 			isa = PBXGroup;
 			children = (
 				36E3AFA728A568D700718FBC /* main.c */,
 			);
-			path = "objc-workout";
+			path = "c-workout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36E3AFA328A568D700718FBC /* objc-workout */ = {
+		36E3AFA328A568D700718FBC /* c-workout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36E3AFAB28A568D700718FBC /* Build configuration list for PBXNativeTarget "objc-workout" */;
+			buildConfigurationList = 36E3AFAB28A568D700718FBC /* Build configuration list for PBXNativeTarget "c-workout" */;
 			buildPhases = (
 				36E3AFA028A568D700718FBC /* Sources */,
 				36E3AFA128A568D700718FBC /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "objc-workout";
+			name = "c-workout";
 			productName = "objc-workout";
-			productReference = 36E3AFA428A568D700718FBC /* objc-workout */;
+			productReference = 36E3AFA428A568D700718FBC /* c-workout */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 36E3AF9F28A568D700718FBC /* Build configuration list for PBXProject "objc-workout" */;
+			buildConfigurationList = 36E3AF9F28A568D700718FBC /* Build configuration list for PBXProject "c-workout" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36E3AFA328A568D700718FBC /* objc-workout */,
+				36E3AFA328A568D700718FBC /* c-workout */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +258,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36E3AF9F28A568D700718FBC /* Build configuration list for PBXProject "objc-workout" */ = {
+		36E3AF9F28A568D700718FBC /* Build configuration list for PBXProject "c-workout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36E3AFA928A568D700718FBC /* Debug */,
@@ -267,7 +267,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36E3AFAB28A568D700718FBC /* Build configuration list for PBXNativeTarget "objc-workout" */ = {
+		36E3AFAB28A568D700718FBC /* Build configuration list for PBXNativeTarget "c-workout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36E3AFAC28A568D700718FBC /* Debug */,
