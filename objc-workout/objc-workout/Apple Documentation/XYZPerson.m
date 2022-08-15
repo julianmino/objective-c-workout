@@ -35,6 +35,14 @@
     return self;
 }
 
+- (void)measureHeight:(float)height {
+    [self setHeight:height];
+}
+
+- (void)measureWeight:(float)weight {
+    [self setWeight:weight];
+}
+
 + (XYZPerson *)person {
     return [[self alloc] init];
 }

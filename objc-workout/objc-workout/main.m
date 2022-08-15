@@ -11,6 +11,7 @@
 #import "Animal+Exam.h"
 #import "Dog.h"
 #import "XYZPerson.h"
+#import "NSString+Drawing.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -221,11 +222,14 @@ int main(int argc, const char * argv[]) {
         
 //        XYZPerson *person7 = [[XYZPerson person] initWith:@"Rita" lastName:@"Bae" birthDate:nil partner:nil];
 //        XYZPerson *person8 = [[XYZPerson person] initWith:@"John" lastName:@"Doe" birthDate:nil partner:person7];
-//        
+//
 //        NSLog(@"%@ is married to %@", person8.firstName, person8.partner.firstName);
 //        NSLog(@"%@ is married to %@", person7.firstName, person7.partner.firstName);
 //        person7 = nil;
 //        NSLog(@"%@ is married to %@", person8.firstName, person8.partner.firstName);
+        
+//        NSString *newString = @"Hello World!";
+//        NSLog(@"%@", [newString toUppercase]);
     }
     return 0;
 }

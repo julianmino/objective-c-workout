@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property int age;
 @property (readonly) int dni;
 @property (weak) XYZPerson *partner;
+@property (readonly) float height;
+@property (readonly) float weight;
 
 - (void) sayHello;
 - (void) saySomething: (NSString *)greeting;
@@ -25,7 +27,17 @@ NS_ASSUME_NONNULL_BEGIN
                birthDate:(NSDate * _Nullable)aBirthDate
                  partner:(XYZPerson * _Nullable)aPartner;
 
+- (void) measureHeight: (float) height;
+- (void) measureWeight: (float) weight;
+
 + (XYZPerson *) person;
+
+@end
+
+@interface XYZPerson ()
+
+@property float height;
+@property float weight;
 
 @end
 
