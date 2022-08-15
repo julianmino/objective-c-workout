@@ -11,7 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface XYZShoutingPerson : XYZPerson
 
+@property (copy) NSString *fullName;
+
 -(void)saySomething:(NSString *)greeting;
+
 @end
 
 NS_ASSUME_NONNULL_END
