@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		369FFD2D28AA00EF00BC0D66 /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FFD2C28AA00EF00BC0D66 /* XYZPerson.m */; };
+		369FFD3028AA0ACD00BC0D66 /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FFD2F28AA0ACD00BC0D66 /* XYZShoutingPerson.m */; };
 		36E3AFBB28A5BA8000718FBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E3AFBA28A5BA8000718FBC /* main.m */; };
 		36E3AFC328A6056500718FBC /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E3AFC228A6056500718FBC /* Animal.m */; };
 		36E3AFC628A60A3A00718FBC /* Koala.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E3AFC528A60A3A00718FBC /* Koala.m */; };
@@ -28,6 +30,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		369FFD2B28AA00EF00BC0D66 /* XYZPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
+		369FFD2C28AA00EF00BC0D66 /* XYZPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
+		369FFD2E28AA0ACD00BC0D66 /* XYZShoutingPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZShoutingPerson.h; sourceTree = "<group>"; };
+		369FFD2F28AA0ACD00BC0D66 /* XYZShoutingPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
 		36E3AFB728A5BA8000718FBC /* objc-workout */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "objc-workout"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E3AFBA28A5BA8000718FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36E3AFC128A6056500718FBC /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
@@ -54,6 +60,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		369FFD2A28AA003400BC0D66 /* Apple Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				369FFD2B28AA00EF00BC0D66 /* XYZPerson.h */,
+				369FFD2C28AA00EF00BC0D66 /* XYZPerson.m */,
+				369FFD2E28AA0ACD00BC0D66 /* XYZShoutingPerson.h */,
+				369FFD2F28AA0ACD00BC0D66 /* XYZShoutingPerson.m */,
+			);
+			path = "Apple Documentation";
+			sourceTree = "<group>";
+		};
 		36E3AFAE28A5BA8000718FBC = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +90,7 @@
 		36E3AFB928A5BA8000718FBC /* objc-workout */ = {
 			isa = PBXGroup;
 			children = (
+				369FFD2A28AA003400BC0D66 /* Apple Documentation */,
 				36E3AFBA28A5BA8000718FBC /* main.m */,
 				36E3AFC128A6056500718FBC /* Animal.h */,
 				36E3AFC228A6056500718FBC /* Animal.m */,
@@ -146,6 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369FFD2D28AA00EF00BC0D66 /* XYZPerson.m in Sources */,
+				369FFD3028AA0ACD00BC0D66 /* XYZShoutingPerson.m in Sources */,
 				36E3AFD028A610BE00718FBC /* Dog.m in Sources */,
 				36E3AFC928A60C1200718FBC /* Animal+Exam.m in Sources */,
 				36E3AFCC28A60D5B00718FBC /* Animal+Vet.m in Sources */,
