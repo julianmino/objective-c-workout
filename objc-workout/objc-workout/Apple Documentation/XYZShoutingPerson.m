@@ -22,4 +22,9 @@
         NSLog(@"It's not a person");
     }
 }
+
+- (void)doSomething:(void (^)(void))callback {
+    callback();
+}
+
 @end

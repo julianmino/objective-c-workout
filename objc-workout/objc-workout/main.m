@@ -232,12 +232,15 @@ int main(int argc, const char * argv[]) {
 //        NSString *newString = @"Hello World!";
 //        NSLog(@"%@", [newString toUppercase]);
         
-        XYZPerson *xyzPerson = [[XYZPerson person]initWith:@"Jane" lastName:@"Doe" birthDate:nil partner:nil];
-        XYZShoutingPerson *shouter = [[XYZShoutingPerson person] initWith:@"John" lastName:@"Doe" birthDate:nil partner:nil];
-        
-        [xyzPerson setShouter:shouter];
-        [xyzPerson.shouter shoutAt:xyzPerson];
-        [xyzPerson.shouter shoutAt:@"I'm a string"];
+//        XYZPerson *xyzPerson = [[XYZPerson person]initWith:@"Jane" lastName:@"Doe" birthDate:nil partner:nil];
+//        XYZShoutingPerson *shouter = [[XYZShoutingPerson person] initWith:@"John" lastName:@"Doe" birthDate:nil partner:nil];
+//
+//        [xyzPerson setShouter:shouter];
+//        [xyzPerson.shouter shoutAt:xyzPerson];
+//        [xyzPerson.shouter shoutAt:@"I'm a string"];
+//        [xyzPerson.shouter doSomething:^{
+//            NSLog(@"I'm %@ %@ and I'm doing this from the outside of the shouter code", xyzPerson.firstName, xyzPerson.lastName);
+//        }];
         
     }
     return 0;

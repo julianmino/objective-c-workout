@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol ShouterProtocol <NSObject>
 
 - (void)shoutAt:(id)person;
+- (void)doSomething: (void(^)(void))callback;
 
 @end
 
