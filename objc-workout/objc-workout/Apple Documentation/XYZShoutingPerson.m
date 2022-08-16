@@ -14,4 +14,17 @@
     NSLog(@"%@", upperGreeting);
 }
 
+- (void)shoutAt:(id)person {
+    if ([person isKindOfClass: [XYZPerson class]]) {
+        XYZPerson *safePerson = (XYZPerson *)person;
+        NSLog(@"HELLO %@!", safePerson.firstName);
+    } else {
+        NSLog(@"It's not a person");
+    }
+}
+
+- (void)doSomething:(void (^)(void))callback {
+    callback();
+}
+
 @end

@@ -11,6 +11,8 @@
 #import "Animal+Exam.h"
 #import "Dog.h"
 #import "XYZPerson.h"
+#import "NSString+Drawing.h"
+#import "XYZShoutingPerson.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -172,31 +174,73 @@ int main(int argc, const char * argv[]) {
 //        [object1 makeSound];
 //        [object2 makeSound];
         
-        XYZPerson *person1 = [XYZPerson person];
-        [person1 sayHello];
+//        XYZPerson *person1 = [XYZPerson person];
+//        [person1 sayHello];
+//
+//        XYZPerson *person2;
+//
+//        if (person1 == person2) {
+//            NSLog(@"person1 and person2 are the same object with the same memory location");
+//        }
+//
+//        if ([person1 isEqual:person2]) {
+//            NSLog(@"person1 and person2 represent the same data type");
+//        }
+//
+//        int someNumber = 42;
+//
+//        if (someNumber == 42) {
+//            NSLog(@"This is a number validation");
+//        }
+//
+//        NSDate *someDate = [NSDate date];
+//        NSDate *anotherDate = [NSDate dateWithTimeIntervalSinceReferenceDate:2000];
+//
+//        if ([someDate compare:anotherDate] == NSOrderedAscending) {
+//            NSLog(@"someDate is earlier than anotherDate");
+//        }
         
-        XYZPerson *person2;
+//        NSMutableString *aName = [NSMutableString stringWithString:@"John"];
+//
+//        XYZPerson *person3 = [[XYZPerson person]initWith: [aName copy] lastName:@"Doe" birthDate:nil];
+//
+//        [person3 sayHello];
+//        [aName appendString:@"ny"];
+//        NSLog(@"%@", aName);
+//        [person3 sayHello];
         
-        if (person1 == person2) {
-            NSLog(@"person1 and person2 are the same object with the same memory location");
-        }
+//        XYZPerson __weak *person4 = [[XYZPerson person] initWith:@"Person 4" lastName:@"Doe" birthDate:nil];
+//        XYZPerson *person5 = [[XYZPerson person] initWith:@"Person 5" lastName:@"Doe" birthDate:nil];
+//        XYZPerson *person6 = [[XYZPerson person] initWith:@"Person 6" lastName:@"Doe" birthDate:nil];
+//
+//
+//        [person4 sayHello];
+//        person4 = nil;
+//        [person5 sayHello];
+//        person5 = nil;
+//        [person6 sayHello];
+//        person6 = nil;
         
-        if ([person1 isEqual:person2]) {
-            NSLog(@"person1 and person2 represent the same data type");
-        }
+//        XYZPerson *person7 = [[XYZPerson person] initWith:@"Rita" lastName:@"Bae" birthDate:nil partner:nil];
+//        XYZPerson *person8 = [[XYZPerson person] initWith:@"John" lastName:@"Doe" birthDate:nil partner:person7];
+//
+//        NSLog(@"%@ is married to %@", person8.firstName, person8.partner.firstName);
+//        NSLog(@"%@ is married to %@", person7.firstName, person7.partner.firstName);
+//        person7 = nil;
+//        NSLog(@"%@ is married to %@", person8.firstName, person8.partner.firstName);
         
-        int someNumber = 42;
+//        NSString *newString = @"Hello World!";
+//        NSLog(@"%@", [newString toUppercase]);
         
-        if (someNumber == 42) {
-            NSLog(@"This is a number validation");
-        }
-        
-        NSDate *someDate = [NSDate date];
-        NSDate *anotherDate = [NSDate dateWithTimeIntervalSinceReferenceDate:2000];
-        
-        if ([someDate compare:anotherDate] == NSOrderedAscending) {
-            NSLog(@"someDate is earlier than anotherDate");
-        }
+//        XYZPerson *xyzPerson = [[XYZPerson person]initWith:@"Jane" lastName:@"Doe" birthDate:nil partner:nil];
+//        XYZShoutingPerson *shouter = [[XYZShoutingPerson person] initWith:@"John" lastName:@"Doe" birthDate:nil partner:nil];
+//
+//        [xyzPerson setShouter:shouter];
+//        [xyzPerson.shouter shoutAt:xyzPerson];
+//        [xyzPerson.shouter shoutAt:@"I'm a string"];
+//        [xyzPerson.shouter doSomething:^{
+//            NSLog(@"I'm %@ %@ and I'm doing this from the outside of the shouter code", xyzPerson.firstName, xyzPerson.lastName);
+//        }];
         
     }
     return 0;
