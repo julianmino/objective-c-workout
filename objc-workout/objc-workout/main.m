@@ -12,6 +12,7 @@
 #import "Dog.h"
 #import "XYZPerson.h"
 #import "NSString+Drawing.h"
+#import "XYZShoutingPerson.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -230,6 +231,14 @@ int main(int argc, const char * argv[]) {
         
 //        NSString *newString = @"Hello World!";
 //        NSLog(@"%@", [newString toUppercase]);
+        
+        XYZPerson *xyzPerson = [[XYZPerson person]initWith:@"Jane" lastName:@"Doe" birthDate:nil partner:nil];
+        XYZShoutingPerson *shouter = [[XYZShoutingPerson person] initWith:@"John" lastName:@"Doe" birthDate:nil partner:nil];
+        
+        [xyzPerson setShouter:shouter];
+        [xyzPerson.shouter shoutAt:xyzPerson];
+        [xyzPerson.shouter shoutAt:@"I'm a string"];
+        
     }
     return 0;
 }

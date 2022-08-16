@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface XYZShoutingPerson : XYZPerson
+@interface XYZShoutingPerson: XYZPerson <ShouterProtocol>
 
 @property (copy) NSString *fullName;
 

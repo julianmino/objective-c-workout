@@ -9,6 +9,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol ShouterProtocol <NSObject>
+
+- (void)shoutAt:(id)person;
+
+@end
+
 @interface XYZPerson : NSObject
 
 @property (copy) NSString *firstName;
@@ -19,6 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak) XYZPerson *partner;
 @property (readonly) float height;
 @property (readonly) float weight;
+@property (weak) id <ShouterProtocol> shouter;
 
 - (void) sayHello;
 - (void) saySomething: (NSString *)greeting;
